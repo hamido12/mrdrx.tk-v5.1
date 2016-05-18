@@ -1,0 +1,16 @@
+var config = {};
+config.account = {};
+config.verbosityLevel = 1;
+config.userAgent = 'mrdrx.tk';
+config.feederServer = "ws://127.0.0.1:8081"; //<------Your Application
+config.serverPort = 8081;
+config.client_uuid = "6da1"; //<------Your UUID
+config.proxies = "proxy.txt";
+config.botsPerIp = 2;
+config.onboardingTimer = 0;
+config.maxBots = 900;
+config.botMode = "default";
+config.minimumMassBeforeFeed = 0;
+config.enableSaveMoveTo = false;
+module.exports = config;
+config.useRandomSkinName = true
